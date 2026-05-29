@@ -3,3 +3,63 @@
   margin: 0;
   padding: 0;
 }
+
+
+h1{
+  color: #FAFA28;
+  font-family: "Ephesis", cursive;
+  font-size: 3rem;
+  text-align: center;
+
+  padding : 1rem 0;
+}
+
+.container{
+  width: 70%;
+  height: 35dvw;
+
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin: auto;
+  border-radius: 10px;
+}
+
+.box{
+  background: #F75252;
+
+  width: 50%;
+
+  margin: auto;
+  margin-top: 20px;
+
+  border-radius: 15px;
+}
+
+.square{
+  background-color: #eeebeb;
+
+  border: 1px solid #000000;
+}
+
+.painted{
+  background-color: #585858;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem;
+}
+
+button{
+  padding: 8px;
+}
+
+.roundButton{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
